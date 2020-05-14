@@ -1,0 +1,24 @@
+{
+  "name": "cy-dashboard",
+  "version": "1.0.0",
+  "description": "cypress with dashboard service",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:dashboard-run" : "cypress run --record --key a48cc708-0bf7-4f3f-882b-75a3e8572c20",
+    "cy:run:chrome" : "cypress run --browser chrome",
+    "cy:run:firefox" : "cypress run --browser firefox",
+    "cy:run:electron" : "cypress run --browser electron"
+  },
+  "keywords": [
+    "cypress",
+    "dashboard"
+  ],
+  "author": "santosh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.5.0",
+    "prettier": "^2.0.5"
+  }
+}
